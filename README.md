@@ -1,5 +1,5 @@
 ## Introduction  
-This repository provides code for mitigating biases (e.g., gender, race) in Large Language Models (LLMs) during resume screening tasks. It leverages adversarial training (via `bert_with_adversary.py`, `gpt2_with_adversary.py`) and adapter fine-tuning (`adapter_train.py`) to reduce bias while preserving performance on downstream tasks like job category classification. The project includes modules for model training, embedding generation, and multi-dimensional fairness evaluation (e.g., TPR-GAP, rRD, WEAT).  
+This repository provides code for mitigating biases (e.g., gender, race) in Large Language Models (LLMs) during resume screening tasks. It leverages adversarial training (via `bert_with_adversary.py`, `gpt2_with_adversary.py`) and adapter fine-tuning (`adapter_train.py`) to reduce bias while preserving performance on downstream tasks like job category classification. The project includes modules for model training, embedding generation, and multi-dimensional fairness evaluation (e.g., TPR-GAP, rRD, WEAT).  All the datasets can be downloaded from the google drive link:https://drive.google.com/drive/folders/1DVl1Bec3ZoejqadDnu-YNb7djtqKoYUd?usp=drive_link
 
 
 ## Contributions  
